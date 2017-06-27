@@ -1,0 +1,102 @@
+	body {
+	 background: #fffff6;
+	 font-family: Baskerville, serif;
+	 color: #362a1e;
+	}
+    img.banner {
+     max-width: 100%;
+     height: auto;
+     margin-bottom: -4cm;
+    }
+    header {
+     line-height: 80%;
+    }
+	h1 {
+     text-align: center;
+     font-style: bold;
+     font-size: 80px;
+	}
+
+	h3 {
+     text-align: center;
+     font-style: italic;
+     font-size: 30px;
+     opacity: 0.6;
+     filter: Alpha(opacity=60); /* IE8 and earlier */
+     margin-bottom: 2cm;
+
+	}
+
+	h2 {
+	 text-align: center;
+     font-size: 40px; 
+	}
+
+    article.intro {
+     text-align: center;
+     margin-right: 8cm;
+     margin-left: 8cm;
+     font-size: 20px; 
+     font-style: italic;
+     margin-bottom: 4cm;
+     opacity: 0.8;
+     filter: Alpha(opacity=80); /* IE8 and earlier */  
+    }
+
+    article.container:first-letter {
+     font-size: 5em;
+     line-height: 1;
+     margin-bottom: -4cm; 
+    }
+
+
+     article.container {
+     margin-right: 6cm;
+     margin-left: 6cm;
+     text-align: justify;
+     font-size: 17px;
+     line-height: 1.5;
+     column-count: 2;
+     column-gap: 25px;
+     text-indent: 50px;
+     margin-bottom: 4cm; 
+     column-rule: 2px solid #d2c2b5; 
+    }
+
+    p.cita {
+     text-align: left;
+     margin-right: 6cm;
+     margin-left: 6cm;
+     font-size: 83px; 
+     font-style: normal;
+     margin-bottom: 1cm;
+    }
+
+    p.autor {
+     text-align: right;
+     font-size: 30px;
+     margin-right: 6cm;
+     margin-left: 6cm;
+     font-style: italic;
+     opacity: 0.5;
+     filter: Alpha(opacity=50); /* IE8 and earlier */  
+     margin-bottom: 2cm;
+
+    }
+
+    article.photo {
+     width: 100%;
+     display: inline-block;
+    }
+
+    img.cofi {
+     width: 300px;
+     height: auto;
+    }
+
+    footer {
+     text-align: center; 
+     font-family: Universe, sans-serif;
+     opacity: 0.5;
+     filter: Alpha(opacity=50); /* IE8 and earlier */
+    }  
